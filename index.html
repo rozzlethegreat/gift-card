@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <title>Create your own card!</title>
+</head>
+<body>
+    <div class="contentContainer">
+    <h1 class="text">It's a card!</h1>
+
+
+        <div class="imageContainer block">
+            <div class="single-image">
+                <img src="images/congratz.png" alt="congratulations-card-colourful" id="congratz" width="160px">
+            </div>
+            <div class="single-image">
+                <img src="images/happy-birthday.png" alt="gold-and-white-birthday-card" id="birthday" width="160px">
+            </div>
+            <div class="single-image">
+                <img src="images/sorry.png" alt="teardrop-sorry-card" id="sorry" width="160px">
+            </div>
+        </div>
+        <div class="insideCard block">
+            <div class="card">
+            <div class="box box1"></div>
+                <div class="box box2">
+                    <p class="changingText"></p>
+                </div>
+            </div>
+
+            <p class="text selectFrom">Select font:</p>
+            <div id="fontBorder">
+                <div class="fontChoice hover" id="verdana">Verdana</div>
+                <div class="fontChoice hover" id="impact">| Impact</div>
+                <div class="fontChoice hover" id="courier">| Courier New</div>
+                <div class="fontChoice hover" id="lucida">| Lucida</div>
+            </div>
+            <div>
+                <textarea rows="10" cols="80" id="message" placeholder="Input text for card here..."></textarea>
+            </div>
+            <div>
+                <div class="colourOption hover" id="white"></div>
+                <div class="colourOption hover" id="beige"></div>
+                <div class="colourOption hover" id="orange"></div>
+                <div class="colourOption hover" id="green"></div>
+                <div class="colourOption hover" id="pink"></div>
+                <div class="colourOption hover" id="blue"></div>
+            </div>
+        </div>
+        <div class="otherOptions">
+            <div class="leftPage">
+                <button class="text decoButton" id="balloon">Balloon</button>
+                <button class="text decoButton" id="dots">Dots</button>
+                <button class="text decoButton" id="curls">Curls</button>
+                <button class="text decoButton" id="none">None</button>
+            </div>
+            <div>
+                <div>
+                    <img src="images/right-align.png" alt="right-align-text" width="50px" class="alignText" id="right">
+                    <img src="images/left-align.png" alt="left-align-text" width="50px" class="alignText" id="left">
+                    <img src="images/center-align.png" alt="center-align-text" width="50px" class="alignText" id="center">
+                </div>
+            </div>
+            <div class="sizeChoice">
+                <p class="text" id="selectSize">Select Size of Text:</p>
+                <select id="optionSelect">
+                    <option value="12px">12px</option>
+                    <option value="14px">14px</option>
+                    <option value="16px">16px</option>
+                    <option value="18px">18px</option>
+                    <option value="20px">20px</option>
+                    <option value="22px">22px</option>
+                    <option value="24px">24px</option>
+                    <option value="26px">26px</option>
+                    <option value="28px">28px</option>
+                    <option value="30px">30px</option>
+                </select>
+            </div>
+            <div class="colourOptions">
+                <div class="colourOption hover" id="black"></div>
+                <div class="colourOption hover" id="yellow"></div>
+                <div class="colourOption hover" id="darkBlue"></div>
+                <div class="colourOption hover" id="red"></div>
+            </div>
+            <button class="text" id="order" type="submit">Order!</button>
+            <span class="error error-span display-none-theme text">error: Please select theme of card (birthday, congratz or sorry)</span>
+            <span class="error error-span display-none-msg text">error: Please input a message into the text box area.</span>
+            <span class="success error-span display-none-success text">Order successful.<br>Congratulations</span>
+
+        </div>
+        <div class="preview">
+            <img src="images/invitation-card.jpg" alt="preview-of-card" width="450px">
+        </div>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,466 @@
+
+/*body{ background-color: pink; }*/
+
+.single-image{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.text{
+    font-family: dosis;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    border: dotted #cbcaa8 4px;
+    padding: 10px;
+}
+
+.contentContainer{
+    margin: 20px;
+}
+
+.block{
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+.imageContainer{
+    width: 250px;
+}
+
+.insideCard{
+    width: 546px;
+    height: 664px;
+    background-color: #afae91;
+}
+
+.preview{
+    display: inline-block;
+}
+
+.box{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    display: inline-block;
+}
+
+.box1{
+    margin: 10px 0 0 22px;
+    float: left;
+}
+
+.box2{
+    margin: 10px 22px 0 0;
+    float: right;
+    border-left: 1px solid;
+}
+
+.changingText{
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+
+#verdana{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#impact{
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#courier{
+    font-family: "Courier New", Courier, monospace;
+}
+
+#lucida{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.fontChoice{
+    font-size: 25px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+#fontBorder{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+#message{
+    margin: 10px 0 0 20px;
+}
+
+.selectFrom{
+    margin: 10px 0 0 10px;
+}
+
+.colourOption{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#white{
+    margin-left: 90px;
+    background-color: white;
+}
+
+#beige{
+    background-color: beige;
+}
+
+#orange{
+    background-color: peachpuff;
+}
+
+#green{
+    background-color: #bdf4bd;
+}
+
+#pink{
+    background-color: lavenderblush;
+}
+
+#blue{
+    background-color: lightcyan;
+}
+
+#black{
+    background-color: black;
+}
+
+#red{
+    background-color: rgb(251, 39, 39);
+}
+
+#yellow{
+    background-color: rgb(255, 235, 0);
+}
+
+#darkBlue{
+    background-color: rgb(38, 52, 227);
+}
+
+.colourOptions{
+    position: relative;
+    top: -390px;
+    right: -185px;
+}
+
+.card:after{
+    display: block;
+    content: ' ';
+    clear: both;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+.otherOptions{
+    margin-left: 20px;
+    width: 450px;
+    height: 200px;
+    background-color: #afae91;
+    display: inline-block;
+    top: 152px;
+    position: absolute;
+}
+
+button{
+    display: block;
+    width: 80px;
+    padding: 5px;
+    margin: 11px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftPage{
+    display: inline-block;
+}
+
+.sizeChoice{
+    display: inline-block;
+    position: relative;
+    top: -380px;
+    right: -200px;
+}
+
+#selectSize{
+    display: inline-block;
+    padding: 15px;
+}
+
+select{
+    display: inline-block;
+    height: 40px;
+    width: 90px;
+    background: transparent;
+    border: 1px solid #AAA;
+    font-size: 14px;
+    padding: 5px 10px;
+    -webkit-appearance: button;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: 85% center;
+    background-repeat: no-repeat;
+}
+
+.alignText{
+    display: block;
+    margin: 5px 0 5px 15px;
+    position: relative;
+    top: -185px;
+    left: 100px;
+    cursor: pointer;
+}
+
+#order{
+    display: inline-block;
+    position: relative;
+    top: -390px;
+    left: 340px;
+    text-decoration: none;
+}
+
+.preview{
+    margin-left: 20px;
+}
+
+.span-errors{
+    width: 400px;
+    position: relative;
+    right: -150px;
+    top: 42px;
+}
+
+.error-span{
+    display: inline-block;
+    position: relative;
+    top: -440px;
+    right: -180px;
+    background-color: white;
+    padding: 4px;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+.display-none-theme{
+    display: none;
+}
+
+.display-none-msg{
+    display: none;
+}
+
+.display-none-success{
+    display: none;
+}
+
+
+.inputForm{
+    width: 150px;
+    margin: 40px;
+    display: inline-block;
+}
+
+.button{
+    display: block;
+    margin-top: 10px;
+    width: 130px;
+    background-color: #afae91;
+    font-size: 20px;
+    font-family: dosis;
+    cursor: pointer;
+}
+
+.cost{
+    display: inline-block;
+    margin: 45px;
+}
+
+.big{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1400px) {
+    .insideCard{
+        display: block;
+    }
+    .otherOptions{
+        margin-left: 620px;
+        margin-top: 450px;
+    }
+    .imageContainer{
+        width: 600px;
+    }
+    .single-image {
+        display: inline-block;
+        margin: 10px;
+    }
+    .preview{
+        position: relative;
+        top: -955px;
+        left: 600px;
+    }
+    #order{
+        top: -310px;
+        left: -10px;
+        background-color: #afae91;
+    }
+    .error{
+        position: relative;
+        top: -360px;
+        right: -100px;
+        border: dashed 1px #afae91;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .imageContainer{
+        width: 400px;
+    }
+    .single-image {
+        display: inline-block;
+        margin: 10px;
+    }
+    .preview{
+        top: -1400px;
+        left: 220px;
+    }
+    .otherOptions{
+        margin: 10px;
+        width: 150px;
+        height: 600px;
+        position: relative;
+        left: 600px;
+        top: -695px;
+    }
+    .decoButton{
+        margin-left: 35px;
+        display: block;
+    }
+    .alignText{
+        display: inline-block;
+        position: relative;
+        margin-bottom: 10px;
+        top: 0;
+        left: 0;
+    }
+    .colourOptions{
+        position: relative;
+        top: -120px;
+        left: 15px;
+    }
+    .sizeChoice{
+        position: relative;
+        top: 120px;
+        left: 10px;
+    }
+    #optionSelect{
+        position: relative;
+        right: -20px;
+    }
+    #selectSize{
+        margin-bottom: 0;
+    }
+    #order{
+        top: 30px;
+        left: -10px;
+    }
+    .error{
+        top: -20px;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .imageContainer{
+        width: 700px;
+        display: block;
+    }
+    .single-image {
+        margin: 15px;
+    }
+    .preview{
+        display: block;
+        top: -1340px;
+        left: 60px;
+    }
+    .insideCard{
+        position: relative;
+        top: 440px;
+        left: 20px;
+    }
+    .otherOptions{
+        top: -945px;
+    }
+    #order{
+        top: 90px;
+
+    }
+    .error{
+        top: 100px;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .alignText{
+        top: -185px;
+        left: 100px;
+        display: block;
+    }
+    .sizeChoice{
+        top: -380px;
+        right: -200px;
+    }
+    .preview{
+        top: -1250px;
+    }
+    .otherOptions{
+        width: 450px;
+        height: 200px;
+        top: 440px;
+        left: 70px;
+    }
+    .decoButton{
+        padding: 5px;
+        margin: 11px;
+    }
+    .sizeChoice{
+        top: -390px;
+        left: 170px;
+    }
+    .colourOptions{
+        top: -390px;
+        left: 180px;
+    }
+    #order{
+        top: -390px;
+        left: 340px;
+    }
+    .error{
+        top: -440px;
+        left: 175px;
+
+    }
+}
